@@ -27,11 +27,11 @@ input[type="search"]::-webkit-search-results-decoration {
 
 ### Background IMage
 
-#### After
+#### Before
 
 <img src="https://github.com/islamovsabit/css-copy-pass/assets/147802380/562fec1e-f85e-4a9b-b708-f76aa5816a16" width="30%" />
 
-#### Before
+#### After
 
 <img src="https://github.com/islamovsabit/css-copy-pass/assets/147802380/0665b1f7-1549-4584-8420-8e2c19291029" width="30%" />
 
@@ -70,3 +70,12 @@ input[type="search"]::-webkit-search-results-decoration {
 #div4 {transition-timing-function: ease-out;}
 #div5 {transition-timing-function: ease-in-out;}
 ```
+
+### Drop Shadow
+
+```css
+img {
+  -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+}
+```
+<img src="https://github.com/islamovsabit/css-copy-pass/assets/147802380/fc22e468-e7f6-4ebc-a880-a401dbd5887e" style="transform:rotate(90deg)" />
