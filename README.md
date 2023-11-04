@@ -79,3 +79,11 @@ img {
 }
 ```
 <img src="https://github.com/islamovsabit/css-copy-pass/assets/147802380/fc22e468-e7f6-4ebc-a880-a401dbd5887e" style="transform:rotate(90deg)" />
+
+
+### Not Disabled
+```
+&:not([disabled]):hover {
+  box-shadow: inset -3px -3px 6px #fff, inset 3px 3px 6px #b8b9be;
+}
+```
